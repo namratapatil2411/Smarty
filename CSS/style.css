@@ -1,0 +1,180 @@
+
+
+.navbar-scrolled{
+    background-color: #031b4e;
+    color: black;
+    top: 10;
+    width: 100%;
+  }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Libre Franklin", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+}
+.topheader1,#herosection {
+    background-color: #1b7344;
+}
+.topheader1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#topheader{
+    display: none;
+}
+.topheader1 ul a{
+    color: #999999;
+}
+
+ul{
+    padding-right: 70px;
+}
+
+
+.hero{
+    padding: 40px 50px;
+    position: relative;
+    
+}
+.about1 p{
+    margin-bottom: 26px;
+    line-height: 30px;
+    color: #333333;
+}
+.sign{
+    align-items: end;
+}
+.admission1{
+    background-color: #1b7344;
+    padding: 0 80px;
+}
+.admission1 button{
+    background-color: #FF9232;
+    border: none;
+    color: white;
+    padding-left: 60px;
+}
+.subject i{
+     color: #333333; 
+}
+
+#classroom,#Courses{
+    background-color: #FFF9F5;
+}
+
+.class,#sorry{
+    background-color: #1b7344;
+}
+.copy{
+    border: 1px dotted;
+    padding: 10px 0;
+    margin-right: 60px;
+}
+.classroom1 button{
+    border: none;
+}
+.sry{
+    padding: 20px 70px;
+}
+.sry2{
+    line-height: 10px;
+}
+.sryy{
+    background-color: black;
+    height: 300px;
+    width: 700px;
+    margin-left: 0px;
+    
+}
+
+.sryy1 span{
+    color: #FF9232;
+}
+
+.sryy1{
+    position: relative;
+}
+.sryy1 span::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    right: -px;
+    width: 50px;
+    height: 2px;
+    margin-top: -1px;
+    margin-left: 15px;
+    background-color: #ff9232;
+
+}
+.process1,.test1,.test2{
+    border: none;
+}
+.pro {
+    font-size: 45px;
+    color: #FF9232;
+}
+#donation {
+    background-color: #F4F5F7;
+}
+.donation1{
+    padding: 0 60px;
+}
+.progress{
+    height: 4px;
+}
+.progress-bar{
+    background-color: #FF9232;
+}
+.test1 span,.test2 span{
+   color: #999999;
+}
+
+#footer{
+    background-color:#FFF9F5 ;
+}
+@media only screen and (min-width:768px){
+ #topheader{
+    display: block;
+ }
+ .bottomheader1{
+    padding: 0 50px;
+}
+.banner4 img{
+    height: 570px;
+}
+.banner1,.banner2,.banner3,.banner4{
+    padding: 0px;
+}
+.sryy{
+    background-color: black;
+    height: 300px;
+    width: 700px;
+    margin-left: 40px;
+    
+}
+}
+
+@media only screen and (min-width:1200px){
+    .banner4 img{
+        height: 650px;
+    } 
+    .banner1,.banner2,.banner3,.banner4{
+        padding: 0px;
+    }
+    .sryy{
+        background-color: black;
+        height: 300px;
+        width: 400px;
+        
+    }
+}
+
+
+
